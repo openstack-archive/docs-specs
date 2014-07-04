@@ -65,9 +65,10 @@ other words, what's the scope of this effort?
 Alternatives
 ------------
 
-What other ways could we do this document? Why aren't we using those? This doesn't
-have to be a full literature review, but it should demonstrate that thought has
-been put into why the proposed solution is an appropriate one.
+What other ways could we do this document? Why aren't we using those?
+This doesn't have to be a full literature review, but it should
+demonstrate that thought has been put into why the proposed solution
+is an appropriate one.
 
 Implementation
 ==============
@@ -111,7 +112,7 @@ Dependencies
 Testing
 =======
 
-Please discuss how the changed document will be tested. 
+Please discuss how the changed document will be tested.
 
 References
 ==========
