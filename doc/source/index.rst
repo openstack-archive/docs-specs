@@ -4,7 +4,7 @@
 Documentation Program Specifications
 ====================================
 
-Contents:
+Template:
 
 .. toctree::
    :glob:
