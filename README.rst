@@ -26,19 +26,15 @@ blueprint in Launchpad (and the spec links to Launchpad).
 Please realize that not all approved blueprints will get fully implemented.
 
 Prior to the Juno development cycle, this repository was not used for spec
-reviews.  Reviews prior to Juno were completed entirely through Launchpad
-blueprints::
-
-  http://blueprints.launchpad.net/openstack-manuals
+reviews.  Reviews prior to Juno were completed entirely through `Launchpad
+blueprints <http://blueprints.launchpad.net/openstack-manuals>`_.
 
 Please note, Launchpad blueprints are still used for tracking the
-current status of blueprints. For more information, see::
+current status of blueprints. For more information, see
+https://wiki.openstack.org/wiki/Blueprints.
 
-  https://wiki.openstack.org/wiki/Blueprints
-
-For more information about working with gerrit, see::
-
-  https://wiki.openstack.org/wiki/Gerrit_Workflow
+For more information about working with gerrit, see
+https://wiki.openstack.org/wiki/Gerrit_Workflow.
 
 To validate that the specification is syntactically correct (i.e. get more
 confidence in the Jenkins result), please execute the following command::
@@ -48,3 +44,8 @@ confidence in the Jenkins result), please execute the following command::
 After running ``tox``, the documentation will be available for viewing in HTML
 format in the ``doc/build/`` directory. Please do not check in the generated
 HTML files as a part of your commit.
+
+The files are published at http://specs.openstack.org/openstack/docs-specs.
+
+The git repository is located at
+http://git.openstack.org/cgit/openstack/docs-specs/.
