@@ -10,7 +10,7 @@ Template:
    :glob:
    :maxdepth: 1
 
-   specs/*
+   specs/template.rst
 
 Juno approved specs:
 
