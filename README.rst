@@ -48,3 +48,11 @@ confidence in the Jenkins result), please execute the following command::
 After running ``tox``, the documentation will be available for viewing in HTML
 format in the ``doc/build/`` directory. Please do not check in the generated
 HTML files as a part of your commit.
+
+The files are published at::
+
+  http://specs.openstack.org/openstack/docs-specs
+
+Repository location is::
+
+  http://git.openstack.org/cgit/openstack/docs-specs/
