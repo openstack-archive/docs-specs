@@ -1,0 +1,10 @@
+Verified+2: Jenkins
+Code-Review+2: Anne Gentle <anne@openstack.org>
+Code-Review+2: Bryan D. Payne <bdpayne@acm.org>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Submitted-by: Jenkins
+Submitted-at: Mon, 04 Aug 2014 17:46:11 +0000
+Reviewed-on: https://review.openstack.org/104781
+Project: openstack/docs-specs
+Branch: refs/heads/master
