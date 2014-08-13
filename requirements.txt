@@ -1,5 +1,6 @@
 actdiag
 blockdiag
+doc8
 nwdiag
 oslosphinx
 pbr>=0.6,<1.0
