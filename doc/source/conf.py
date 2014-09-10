@@ -30,8 +30,13 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.intersphinx',
               'sphinx.ext.todo',
               'sphinx.ext.viewcode',
-              'oslosphinx'
+              'oslosphinx',
+              'yasfb',
              ]
+
+# Feed configuration for yasfb
+feed_base_url = 'http://specs.openstack.org/openstack/docs-specs/'
+feed_author = 'OpenStack Documentation Team'
 
 todo_include_todos = True
 
