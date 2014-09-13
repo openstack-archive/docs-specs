@@ -1,0 +1,8 @@
+Verified+2: Jenkins
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Submitted-by: Jenkins
+Submitted-at: Sat, 13 Sep 2014 17:30:41 +0000
+Reviewed-on: https://review.openstack.org/121231
+Project: openstack/docs-specs
+Branch: refs/heads/master
