@@ -19,8 +19,6 @@ Writing specifications
    :maxdepth: 1
 
    README <readme>
-   Sample template <specs/template>
-   Empty skeleton <specs/skeleton>
 
 ==================
 Indices and tables
