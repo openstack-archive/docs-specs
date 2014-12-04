@@ -12,6 +12,14 @@ Juno approved specs:
 
    specs/juno/*
 
+Kilo proposed specs:
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/kilo/*
+
 Writing specifications
 ======================
 
