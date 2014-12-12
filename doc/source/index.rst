@@ -4,6 +4,14 @@
 Documentation Program Specifications
 ====================================
 
+Kilo approved specs:
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/kilo/*
+
 Juno approved specs:
 
 .. toctree::
