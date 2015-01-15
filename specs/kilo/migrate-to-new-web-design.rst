@@ -136,6 +136,14 @@ we can either keep the openstack theme and start one named "openstack-doc" or
 update the openstack theme to be the new design. I prefer to name a new one
 "openstack-doc" so that the current openstack theme which can indicate when a
 project's doc is incubated remains.
+Updated to add: looking at the information architecture of the header, it looks
+like it's best to have an openstack-doc theme that doesn't necessarily live in
+oslosphinx. Oslosphinx is used for http://specs.openstack.org,
+http://ci.openstack.org, http://governance.openstack.org for example, and
+http://ci.openstack.org has modified the header so that it wouldn't match the
+other sites. As a result, the plan is to keep the oslosphinx theme with
+oslosphinx and create a theme in openstack-manuals for application to all
+content published to http://docs.openstack.org.
 
 March (after POC complete): Migrate DocBook to RST for these books in this
 priority order:
