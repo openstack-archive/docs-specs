@@ -1,0 +1,12 @@
+Verified+2: Jenkins
+Code-Review+2: Anne Gentle <anne@openstack.org>
+Workflow+1: Anne Gentle <anne@openstack.org>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Sayali Lunkad <sayali.92720@gmail.com>
+Code-Review+1: Roger Luethi <rl@patchworkscience.org>
+Code-Review+1: Matjaz Pancur <matjaz.pancur@fri.uni-lj.si>
+Submitted-by: Jenkins
+Submitted-at: Fri, 16 Jan 2015 15:13:49 +0000
+Reviewed-on: https://review.openstack.org/141369
+Project: openstack/docs-specs
+Branch: refs/heads/master
