@@ -4,21 +4,23 @@
 Documentation Program Specifications
 ====================================
 
-Juno approved specs:
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   specs/juno/*
-
-Kilo proposed specs:
+Kilo approved specs
+===================
 
 .. toctree::
    :glob:
    :maxdepth: 1
 
    specs/kilo/*
+
+Juno approved specs
+===================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/juno/*
 
 Writing specifications
 ======================
