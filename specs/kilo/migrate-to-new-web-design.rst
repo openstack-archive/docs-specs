@@ -41,10 +41,12 @@ Proposed change
 ===============
 
 In the Kilo time frame, migrate these books to the new design:
+
 * End User Guide
 * Admin User Guide
 
 As time permits, continue to migrate these books to the new design:
+
 * Cloud Administrator Guide
 * High Availability Guide
 * API Quick Start Guide
@@ -91,53 +93,64 @@ Work Items
 ----------
 
 Research:
+
 January 2015
 - Investigate how to publish PDF files within this new design.
-- Investigate how to ensure translation toolchain is supported with this new
-design.
 - Investigate using index.rst collections across repos for new deliverable
 assembly. This is not a required task for the migration, but will certainly
 help with information architecture going forward towards "every page is page
 one" rather than book-like deliverables. (jaegerandi)
 
 Frameworks:
+
 January: Create a taxonomy for suggested tags as part of the `Conventions wiki
 page
 <https://wiki.openstack.org/wiki/Documentation/Markup_conventions>`_
 (klevenstein, loquacities)
 
-January 15, 2015: Create jinja2 templates from Jekyll designs for:
- - landing page (fifieldt)
-February 1, 2015: Create jinja2 templates from Jekyll designs for:
- - search page
-February 20, 2015: Create Sphinx template from Jekyll design for:
- - content page
+DONE January 15, 2015: Create jinja2 templates from Jekyll designs for:
 
-February: Replace static www jinja templates in openstack-manuals with
+* landing page and search (fifieldt)
+
+DONE February 20, 2015: Create Sphinx template from Jekyll design for:
+
+* content pages (annegentle)
+
+DONE February: Replace static www jinja templates in openstack-manuals with
 new design
 
 Proof of concept with content:
+
 February 15, 2015: Migrate DocBook to RST for these books in this priority
 order:
-End User Guide
-Admin User Guide
+
+* End User Guide
+* Admin User Guide
+
+Tracking on wiki page: https://wiki.openstack.org/wiki/Documentation/Migrate
+
 February 28, 2015: Update our build infrastructure
-so that sphinx is used for publishing these documents:
-End User Guide
-Admin User Guide
+so that Sphinx is used for publishing these documents:
+
+* End User Guide
+* Admin User Guide
 
 February 20, 2015: Test templates across browsers to ensure parity with design:
+
 * Chrome on Ubuntu, Fedora, Mac, Windows
 * Firefox on Ubuntu, Fedora, Mac, Windows
 
-February 15, 2015: Update oslosphinx to have new openstack-docs theme:
+March 2015: Test translation toolchain. Ying Chun Guo (Daisy) has agreed to
+investigate.
+
+DONE February 15, 2015: Update oslosphinx to have new openstackdocs theme:
 Currently the theme name is "openstack." Reviewing the plan with Doug Hellman,
-we can either keep the openstack theme and start one named "openstack-doc" or
+we can either keep the openstack theme and start one named "openstackdocs" or
 update the openstack theme to be the new design. I prefer to name a new one
-"openstack-doc" so that the current openstack theme which can indicate when a
+"openstackdocs" so that the current openstack theme which can indicate when a
 project's doc is incubated remains.
 
-Updated to add: looking at the information architecture of the header,
+DONE Updated to add: looking at the information architecture of the header,
 it looks like it's best to have an openstack docs theme that doesn't
 necessarily live in oslosphinx. Oslosphinx is used for
 http://specs.openstack.org, http://ci.openstack.org,
@@ -148,26 +161,34 @@ theme with oslosphinx and create a theme in a separate repo named
 openstackdocsthemes for application to all content published to
 http://docs.openstack.org.
 
-March (after POC complete): Migrate DocBook to RST for these books in this
-priority order:
-Cloud Administrator Guide
-Virtual Machine Image Guide
-High Availability Guide
-API Quick Start Guide
+March (after proof-of-concept and CI is complete): Migrate DocBook to RST for
+these books in this priority order:
 
-March: Once migrated, apply new oslosphinx template to these repos and
+* Cloud Administrator Guide
+* Virtual Machine Image Guide
+* High Availability Guide
+* API Quick Start Guide
+
+March: Once migrated, apply new openstackdocstheme template to these repos and
 deliverables:
+
 openstack-manuals:
+
 * End User Guide
 * Admin User Guide
 * Cloud Administrator Guide
 * Virtual Machine Image Guide
+
 api-site:
+
 * API Quick Start Guide
+
 ha-guide:
+
 * High Availability Guide
 
 March: Remind projects to update their theme for /developer/ docs for:
+
  * nova
  * neutron
  * glance
@@ -186,13 +207,17 @@ Dependencies
 
 Foundation web developers hand-off of current design HTML and CSS files.
 (Done)
-Core olsosphinx reviewers helping with theme creation and reviews.
+
+Core olsosphinx reviewers helping with theme creation and reviews. (Done)
+
+Translation team investigate and test translation toolchain.
 
 Testing
 =======
 
 We need to test the new HTML design on these browsers/operating systems as a
 priority:
+
 * Chrome on Ubuntu, Fedora, Mac, Windows
 * Firefox on Ubuntu, Fedora, Mac, Windows
 
