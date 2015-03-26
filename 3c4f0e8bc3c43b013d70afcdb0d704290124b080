@@ -1,0 +1,11 @@
+Verified+2: Jenkins
+Code-Review+1: Christian Berendt <christian@berendt.io>
+Code-Review+2: Anne Gentle <anne@openstack.org>
+Workflow+1: Anne Gentle <anne@openstack.org>
+Code-Review+1: Karin Levenstein <karin.levenstein@rackspace.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Submitted-by: Jenkins
+Submitted-at: Thu, 26 Mar 2015 14:59:48 +0000
+Reviewed-on: https://review.openstack.org/160603
+Project: openstack/docs-specs
+Branch: refs/heads/master
