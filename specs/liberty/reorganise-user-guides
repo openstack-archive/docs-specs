@@ -1,0 +1,74 @@
+..
+ This work is licensed under a Creative Commons Attribution 3.0 Unported
+ License.
+
+ http://creativecommons.org/licenses/by/3.0/legalcode
+
+=====================================
+Reorganise User Guides for Liberty
+=====================================
+
+https://blueprints.launchpad.net/openstack-manuals/+spec/reorganise-user-guides
+
+Update the information architecture of the End User Guide and Admin User
+Guide to ensure that user and operator content is separated, and the existing
+content is accurate and relevant.
+
+Problem description
+===================
+
+The current user guides have become disorganised over time, this update
+tidies them up.
+
+Proposed change
+===============
+
+* Identify different types of content in the guides
+* Reorganise guides to better present existing content
+* Clean up existing content where necessary
+* Identify information gaps and raise bugs where necessary
+
+Alternatives
+------------
+
+* Leave the guides as they are
+
+Implementation
+==============
+
+Assignee(s)
+-----------
+
+Primary assignee:
+  Lana Brindley (loquacity)
+
+Other contributors:
+  The User Guides specialty team
+  Anyone with information architecture experience
+
+Work Items
+----------
+
+* TBD
+
+Dependencies
+============
+
+* None
+
+Testing
+=======
+
+* None
+
+References
+==========
+
+* Discussion can occur using any official medium including IRC in
+  #openstack-doc, the openstack-docs mailing list with [user guides]
+  in the subject, weekly user guide `specialty team meeting`_,
+  weekly `documentation team meeting`_, and potentially etherpads.
+
+.. _`specialty team meeting`: https://wiki.openstack.org/wiki/User_Guides
+
+.. _`documentation team meeting`: https://wiki.openstack.org/wiki/Meetings/DocTeamMeeting
