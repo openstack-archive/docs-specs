@@ -1,0 +1,9 @@
+Verified+2: Jenkins
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Sean Roberts <seanroberts66@gmail.com>
+Workflow+1: Sean Roberts <seanroberts66@gmail.com>
+Submitted-by: Jenkins
+Submitted-at: Mon, 04 May 2015 00:25:27 +0000
+Reviewed-on: https://review.openstack.org/143270
+Project: openstack/docs-specs
+Branch: refs/heads/master
