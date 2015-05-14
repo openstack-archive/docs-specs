@@ -153,9 +153,9 @@ project's doc is incubated remains.
 DONE Updated to add: looking at the information architecture of the header,
 it looks like it's best to have an openstack docs theme that doesn't
 necessarily live in oslosphinx. Oslosphinx is used for
-http://specs.openstack.org, http://ci.openstack.org,
+http://specs.openstack.org, http://docs.openstack.org/infra/system-config,
 http://governance.openstack.org for example, and
-http://ci.openstack.org has modified the header so that it wouldn't
+http://docs.openstack.org/infra/system-config has modified the header so that it wouldn't
 match the other sites. As a result, the plan is to keep the oslosphinx
 theme with oslosphinx and create a theme in a separate repo named
 openstackdocsthemes for application to all content published to
