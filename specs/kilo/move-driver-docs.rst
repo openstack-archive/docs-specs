@@ -10,8 +10,8 @@ Proprietary driver docs in openstack-manuals
 
 https://blueprints.launchpad.net/openstack-manuals/+spec/move-driver-docs
 
-The Configuration Reference includes documentation for various
-drivers. This spec clarifies the expectations and handling of such
+The Configuration Reference and Cloud Admin Guide include documentation for
+various drivers. This spec clarifies the expectations and handling of such
 documentation.
 
 The shared goals for driver documentation includes:
@@ -72,8 +72,12 @@ Proposed change
 The documentation team will fully document the reference drivers as
 specified below and just add short sections for other drivers. If a
 vendor wants to document their driver, they are invited - but not
-enforced - to include their documentation in the Configuration
-Reference if they commit to maintain the documentation.
+forced - to include their documentation in the Configuration
+Reference if they commit to maintain the documentation. However,
+other documentation (including the Cloud Admin Guide and Networking
+Guide) will not contain content for third-party drivers. In these books,
+where third party drivers exist, add the statement: "For other drivers,
+see chapter X in the Configuration Reference Guide".
 
 Guidelines for drivers that will be documented fully by the OpenStack
 community in the OpenStack documentation:
@@ -88,7 +92,7 @@ For documentation of other drivers, the following guidelines apply:
   driver, see below for details
 * Only drivers are covered that are contained in the official
   OpenStack project repository for drivers (for example in the main
-  project repository or the official "third party" repository).
+  project repository or the official third-party repository).
 
 If a vendor wants to add more than the minimal documentation, they
 need to commit to the following guidelines:
@@ -155,38 +159,41 @@ various driver documents follow a consistent standard.
 Alternatives
 ------------
 
-* Keep status quo: Add all drivers to Configuration Reference.
+* Keep status quo: Add all drivers to the Configuration Reference.
 * Remove drivers, do not link to them at all - or just link to a
-  single wiki page
+  single wiki page.
 * Have minimal documentation for all drivers only. This was the
   initial idea but rejected since some vendors do not have
   documentation on their own.
 
 Implementation
 ==============
-The work will be done in two steps:
+The work will be done in three steps:
 
-#. Bring all driver sections that are currently just 'bare bones' up
-   to the standard mentioned.
-#. Work with third party drivers to convert existing documentation to
-   new standard.
+#. In the Configuration Reference, bring all driver sections that
+   are currently just "bare bones" up to the standard mentioned.
+#. Work with third-party drivers to convert existing documentation
+   in the Configuration Reference to the new standard.
+#. Purge third-party driver content from other documentation such
+   as the Cloud Admin Guide.
 
 
 Assignee(s)
 -----------
 
 jaegerandi
-annegentle - informing vendors
+loquacities - informing vendors
 
 Work Items
 ----------
 
-* Inform third party driver contacts about change (note that we
+* Inform third-party driver contacts about change (note that we
   have to make this spec known to them earlier to get input on it as
   well)
 * Ask vendor drivers to assign a contact person and give deadlines.
 * Add minimal content for drivers that have no content right now.
 * Enhance content (based on suggestion by driver vendors)
+* Purge third-party driver content from other documentation.
 
 
 Dependencies
