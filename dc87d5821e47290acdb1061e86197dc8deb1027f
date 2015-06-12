@@ -1,0 +1,10 @@
+Verified+2: Jenkins
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Workflow+1: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+1: Joseph Robinson <joseph.robinson@rackspace.com>
+Submitted-by: Jenkins
+Submitted-at: Fri, 12 Jun 2015 04:42:11 +0000
+Reviewed-on: https://review.openstack.org/183138
+Project: openstack/docs-specs
+Branch: refs/heads/master
