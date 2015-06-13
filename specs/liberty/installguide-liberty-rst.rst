@@ -34,14 +34,17 @@ Freeze development on the Installation Guide.
 Convert Installation Guide to RST, concentrating on installation of core
 services: nova, cinder, glance, keystone, neutron, swift.
 
-Conditionals can be applied with the `ifconfig` extension:
-.. _`ifconfig description`: http://sphinx-doc.org/ext/ifconfig.html
+Conditionals can be applied using :code:`:only:` or the ifconfig_
+extension.
+
+.. _ifconfig: http://sphinx-doc.org/ext/ifconfig.html
 
 Conditional tags will be simplified as much as possible, grouping content
 according to operating system group:
-* `ubuntu-based`
-* `fedora-based`
-* `opensuse-based`
+
+* ``obs``: openSUSE, SUSE Linux Enterprise Server
+* ``rdo``: CentOS, Fedora, RHEL
+* ``ubuntu``: Ubuntu
 
 Plan for Debian install guide will be addressed in a separate spec.
 
@@ -57,26 +60,29 @@ Assignee(s)
 -----------
 
 Primary assignee:
-  karin-levenstein
+
+* karin-levenstein
 
 Other contributors:
-  berendt
-  dguitarbite
-  jaegerandi
-  ionosphere80
+
+* berendt
+* dguitarbite
+* jaegerandi
+* ionosphere80
 
 Work Items
 ----------
 
 Freeze on updates in master.
 
-Track changes in wiki:
-.. _`wiki`: https://wiki.openstack.org/wiki/Documentation/Migrate
+Track changes in wiki_.
+
+.. _wiki: https://wiki.openstack.org/wiki/Documentation/Migrate
 
 Update our build infrastructure so that Sphinx is used for publishing the
 Installation Guide.
 
-Once migrated, apply new openstackdocstheme template to the guide.
+Apply new openstackdocstheme template to the guide.
 
 Dependencies
 ============
