@@ -1,0 +1,12 @@
+Verified+2: Jenkins
+Code-Review+1: Karin Levenstein <karin.levenstein@rackspace.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Workflow+1: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Code-Review+1: Clint Adams <clint@gcfm.net>
+Submitted-by: Jenkins
+Submitted-at: Fri, 19 Jun 2015 06:12:11 +0000
+Reviewed-on: https://review.openstack.org/191520
+Project: openstack/docs-specs
+Branch: refs/heads/master
