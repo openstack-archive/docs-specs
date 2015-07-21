@@ -1,0 +1,13 @@
+Verified+2: Jenkins
+Code-Review+2: Anne Gentle <anne@openstack.org>
+Code-Review+1: Karin Levenstein <karin.levenstein@rackspace.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: bruce-benjamin <bruce.benjamin@jhuapl.edu>
+Code-Review+1: Matthew Kassawara <mkassawara@gmail.com>
+Code-Review+1: Karen Bradshaw <kbhawkey@gmail.com>
+Submitted-by: Jenkins
+Submitted-at: Tue, 21 Jul 2015 16:40:32 +0000
+Reviewed-on: https://review.openstack.org/191074
+Project: openstack/docs-specs
+Branch: refs/heads/master
