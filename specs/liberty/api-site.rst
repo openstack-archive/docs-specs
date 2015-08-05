@@ -179,6 +179,38 @@ Compilation of changes: Optionally, provide a list of changes to help
 reviewers discover wording that could be fixed, inconsistencies in examples,
 parameter naming, potential for better human grouping and so on.
 
+Conceptual API information
+--------------------------
+
+As noted above, ideally we enable teams to write and review API information
+while bringing all the sources together into one consumable, readable guide.
+The work done last release to put the "narrative" information, such as rate
+limits, versioning, and so on into each project's managed repository should be
+reused for these Developer Guides. 
+
+For an interim step, we can start publishing the RST-sourced information to
+http://developer.openstack.org/api-guide/compute
+from the http://git.openstack.org/cgit/openstack/nova/tree/doc/source/v2
+information. Publishing as separate items does mean needing to add a separate
+index.rst and conf.py build for each of the services that has these types of
+conceptual documents.
+
+Also, add a new column to the developer.openstack.org landing page that links
+to conceptual information for each service in a column next to API Reference.
+
+These are the current links to API conceptual information:
+http://docs.openstack.org/developer/nova/v2/index.html
+http://docs.openstack.org/developer/swift/#object-storage-v1-rest-api-documentation
+http://specs.openstack.org/openstack/glance-specs/#image-service-v2-api
+http://specs.openstack.org/openstack/glance-specs/#image-service-v1-api
+http://specs.openstack.org/openstack/keystone-specs/#v3-api
+http://specs.openstack.org/openstack/keystone-specs/#v2-0-api
+http://specs.openstack.org/openstack/neutron-specs/#api-specs
+http://specs.openstack.org/openstack/cinder-specs/#volume-v2-api
+
+By building and linking more prominently we hope to add to the collection of
+helpful information for application and SDK developers.
+
 .. _overview-of-standards:
 
 Overview of standards
@@ -330,6 +362,9 @@ server::metadata
 server::actions
 
 Then use the Tag to design the front-end.
+
+Surface the existing conceptual information by publishing existing content to
+developer.openstack.org/api-guides/<servicename>.
 
 Migration work items:
 Delete WADL files in api-site/api-ref once replacement is complete.
