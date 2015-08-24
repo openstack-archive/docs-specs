@@ -4,6 +4,15 @@
 Documentation Program Specifications
 ====================================
 
+Mitaka approved specs
+======================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/liberty/*
+
 Liberty approved specs
 ======================
 
