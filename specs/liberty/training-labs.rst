@@ -5,26 +5,27 @@
  http://creativecommons.org/licenses/by/3.0/legalcode
 
 ==============
-OpenStack Labs
+Training-labs
 ==============
 
-https://blueprints.launchpad.net/openstack-manuals/+spec/openstack-labs
+https://blueprints.launchpad.net/openstack-manuals/+spec/training-labs
 
-OpenStack Labs will provide automated way of deploying a multi node
-OpenStack cluster on a lean basis. OpenStack Labs should provide a
+OpenStack is made of many projects, with a complex mash of technologies.
+training-labs will provide an automated way of deploying a multi node
+OpenStack cluster on a lean basis. Labs scripts should provide an
 easy way to setup OpenStack cluster which should be a good starting
 point for beginners to learn OpenStack, and for advanced users to
 test out new features, check out different capabilities of OpenStack.
-On top of that OpenStack Labs will also be a good way to test the
-install guides on a regular basis.
+On top of that training-labs will also be a good way to test the
+install guides on a regular basis and provide automation for those who
+woud like to focus on installing just one section from install-guides.
 
 Problem description
 ===================
 
-Deploying OpenStack could be really challenging for beginners. OpenStack
-Labs would provide a simple automated way to have a multi-node vanilla
-OpenStack deployment on virtual machines. The following are the unique
-traits:
+Deploying OpenStack could be really challenging for beginners. Training-labs
+would provide a simple automated way to have a multi-node vanilla openstack
+deployment on virtual machines. The following are the unique traits:
 
 * Easy to setup and run.
 * Minimal dependencies.
@@ -41,17 +42,19 @@ traits:
   * Windows
 
 * Closely follows install-guides.
+* Some parts are taken from other guides/books like lbaas from networking
+  guide.
 
 Proposed change
 ===============
 
-* The work will be carried out by OpenStack Labs, speciality team.
+* The work will be carried out by training-labs speciality team.
 * Creation of new repository.
 * Migrating labs folder under training-guides to the new repository:
 
   * Setup a new github repository for migration.
     using git-filter on the labs section of training guides.
-  * Propose a new repository in OpenStack and import content from
+  * Propose a new repository in openstack and import content from
     github repository.
 
 Alternatives
@@ -72,7 +75,6 @@ Primary assignee:
 Other contributors:
 
 * rluethi
-* sayalilunkad
 
 Work Items
 ----------
@@ -83,7 +85,7 @@ Work Items
     repository.
   * Move it to a github repository.
 
-* Create openstack-labs repository, pull the content from the github
+* Create training-labs repository, pull the content from the github
   repository.
 * Refactor the repository structure to include new architecture.
 
@@ -96,7 +98,7 @@ Testing
 =======
 
 * Add bash and python syntax checks.
-* Create required infra jobs for openstack-labs.
+* Create required infra jobs for training-labs.
 
 References
 ==========
@@ -106,7 +108,7 @@ References
   in the subject, weekly Installation Guide `specialty team meeting`_,
   weekly `documentation team meeting`_, and potentially etherpads.
 
-.. _`specialty team meeting`: https://wiki.openstack.org/wiki/Documentation/OpenStack-Labs
+.. _`specialty team meeting`: https://wiki.openstack.org/wiki/Documentation/training-labs#Meeting_Information
 
 .. _`documentation team meeting`: https://wiki.openstack.org/wiki/Meetings/DocTeamMeeting
 
