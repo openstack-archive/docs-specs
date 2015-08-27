@@ -5,26 +5,26 @@
  http://creativecommons.org/licenses/by/3.0/legalcode
 
 ==============
-OpenStack Labs
+openstack labs
 ==============
 
 https://blueprints.launchpad.net/openstack-manuals/+spec/openstack-labs
 
-OpenStack Labs will provide automated way of deploying a multi node
-OpenStack cluster on a lean basis. OpenStack Labs should provide a
+OpenStack is made of many projects, with a complex mash of technologies,
+openstack-labs will provide automated way of deploying a multi node
+OpenStack cluster on a lean basis. Labs scripts should provide an
 easy way to setup OpenStack cluster which should be a good starting
 point for beginners to learn OpenStack, and for advanced users to
 test out new features, check out different capabilities of OpenStack.
-On top of that OpenStack Labs will also be a good way to test the
+On top of that openstack-labs will also be a good way to test the
 install guides on a regular basis.
 
 Problem description
 ===================
 
-Deploying OpenStack could be really challenging for beginners. OpenStack
-Labs would provide a simple automated way to have a multi-node vanilla
-OpenStack deployment on virtual machines. The following are the unique
-traits:
+Deploying OpenStack could be really challenging for beginners. openstack-labs
+would provide a simple automated way to have a multi-node vanilla openstack
+deployment on virtual machines. The following are the unique traits:
 
 * Easy to setup and run.
 * Minimal dependencies.
@@ -45,13 +45,13 @@ traits:
 Proposed change
 ===============
 
-* The work will be carried out by OpenStack Labs, speciality team.
+* The work will be carried out by openstack-labs, speciality team.
 * Creation of new repository.
 * Migrating labs folder under training-guides to the new repository:
 
   * Setup a new github repository for migration.
     using git-filter on the labs section of training guides.
-  * Propose a new repository in OpenStack and import content from
+  * Propose a new repository in openstack and import content from
     github repository.
 
 Alternatives
@@ -106,7 +106,7 @@ References
   in the subject, weekly Installation Guide `specialty team meeting`_,
   weekly `documentation team meeting`_, and potentially etherpads.
 
-.. _`specialty team meeting`: https://wiki.openstack.org/wiki/Documentation/OpenStack-Labs
+.. _`specialty team meeting`: https://wiki.openstack.org/wiki/Documentation/openstack-labs#Meeting_Information
 
 .. _`documentation team meeting`: https://wiki.openstack.org/wiki/Meetings/DocTeamMeeting
 
