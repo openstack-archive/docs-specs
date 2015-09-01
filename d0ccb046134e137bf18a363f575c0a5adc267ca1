@@ -1,0 +1,16 @@
+Verified+2: Jenkins
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Victor Howard <victor.r.howard@gmail.com>
+Code-Review+1: Graeme Gillies <ggillies@redhat.com>
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Workflow+1: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Code-Review+1: Brian Moss <kallimachos@gmail.com>
+Code-Review+1: Craige McWhirter <craige@mcwhirter.com.au>
+Code-Review+1: Charles Bitter <cbitter78@gmail.com>
+Code-Review+1: Darren Shaw <ds354m@att.com>
+Submitted-by: Jenkins
+Submitted-at: Tue, 01 Sep 2015 23:55:04 +0000
+Reviewed-on: https://review.openstack.org/216106
+Project: openstack/docs-specs
+Branch: refs/heads/master
