@@ -8,7 +8,7 @@
 OpenStack Liberty Installation Guide: RST Conversion
 ====================================================
 
-https://blueprints.launchpad.net/openstack-manuals/+spec/installguide-liberty
+https://blueprints.launchpad.net/openstack-manuals/+spec/installguide-liberty-rst
 
 The OpenStack Installation Guide will be converted to RST.
 DocBook will continue to be maintained in stable/kilo.
