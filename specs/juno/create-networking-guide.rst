@@ -48,7 +48,7 @@ as set up in the Install Guide, plus a network node to run Neutron
 agents. This is the same architecture used in the Cloud Administrators
 Guide:
 
-http://docs.openstack.org/admin-guide-cloud/content/network-connectivity.html
+http://docs.openstack.org/admin-guide-cloud/networking_arch.html
 
 It will use the same conventions for naming and services as the Install
 Guide, many of which are covered on the wiki:
