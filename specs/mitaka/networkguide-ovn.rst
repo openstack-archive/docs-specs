@@ -45,8 +45,20 @@ information rather than duplicating it.
 Alternatives
 ------------
 
-Do not develop OVN documentation that appeals to potential deployers.
+Do not include OVN in the networking guide.
 
+A previous spec provided `guidelines on driver inclusion`_ in docs.  For
+Neutron, that guidance was "document ML2 plug-in with the mechanisms drivers
+OpenVSwitch and LinuxBridge".  Neutron has *several* plugin options, some
+proprietary and others that are varying degrees of open.  The networking guide
+is intentionally kept at a limited scope to make it more manageable.
+
+OVN is a natural addition to the networking guide as it is a part of the OVS
+project.  It's providing many features that Neutron needs and has had to
+implement manually before OVN was available.  The OVS project desires to extend
+OVN enough such that it's what most people would want to use for basic virtual
+networking with OVS in OpenStack.  Because of this, OVN fits in with the
+previously defined scope of the networking guide.
 
 Implementation
 ==============
@@ -112,3 +124,5 @@ References
 .. _`documentation team meeting`: https://wiki.openstack.org/wiki/Meetings/DocTeamMeeting
 
 .. _`neutron team meeting`: https://wiki.openstack.org/wiki/Network/Meetings
+
+.. _`guidelines for driver inclusion`: http://specs.openstack.org/openstack/docs-specs/specs/kilo/move-driver-docs.html
