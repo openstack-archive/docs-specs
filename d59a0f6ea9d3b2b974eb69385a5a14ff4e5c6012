@@ -1,0 +1,10 @@
+Verified+2: Jenkins
+Code-Review+2: Edgar Magana <emagana@gmail.com>
+Workflow+1: Edgar Magana <emagana@gmail.com>
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Submitted-by: Jenkins
+Submitted-at: Wed, 09 Dec 2015 05:46:31 +0000
+Reviewed-on: https://review.openstack.org/253283
+Project: openstack/docs-specs
+Branch: refs/heads/master
