@@ -1,0 +1,12 @@
+Verified+2: Jenkins
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+2: Joseph Robinson <joseph.robinson@rackspace.com>
+Workflow+1: Joseph Robinson <joseph.robinson@rackspace.com>
+Code-Review+1: Gudrun Wolfgram <gmolson@us.ibm.com>
+Code-Review+1: Rob Cresswell <rcresswe@cisco.com>
+Code-Review+1: Pieter <pieter.c.kruithof-jr@hp.com>
+Submitted-by: Jenkins
+Submitted-at: Sun, 13 Dec 2015 23:37:44 +0000
+Reviewed-on: https://review.openstack.org/252668
+Project: openstack/docs-specs
+Branch: refs/heads/master
