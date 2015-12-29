@@ -75,7 +75,7 @@ Work Items
     - Replace deprecated eventlet (default web server) with Apache using
       `configuration`_ in upstream keystone repository.
 
-      .. _`configuration`: https://github.com/openstack/keystone/tree/master/httpd
+      .. _`configuration`: https://git.openstack.org/cgit/openstack/keystone/tree/httpd
 
     - Replace SQL token storage driver with Memcached to improve
       performance.
