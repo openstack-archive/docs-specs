@@ -39,9 +39,10 @@ Proposed change
    from the OpenStack foundation administrator survey. Reorganize content
    appropriately.
 
-3. Restructure the guides by merging content from the Cloud Administrator Guide
-   into the Administrator User Guide and the User Guide as appropriate. Remove
-   the Cloud Administrator Guide from openstack-manuals.
+3. Restructure the guides by merging content from the Administrator User
+   Guide into the Cloud Administrator Guide following information
+   architecture. Remove the Administrator User Guide from
+   openstack-manuals.
 
 4. Rename the Administrator User Guide to Administrator Guide.
 
