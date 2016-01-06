@@ -29,8 +29,8 @@ Proposed change
   * Clean up existing content with grammar checks, use of definite articles,
     and verb subject agreement.
   * Address consistency of tables across the guides - adjust to a
-    variable list with bold headings, or a table with :code: roles inside
-    the cells to highlight commands.
+    variable list with bold headings, or a table with :codeblock: roles
+    inside cells to highlight commands.
   * Reorganize troubleshooting sections into a single format - change the
     Troubleshooting sections to use a "Problem" and "Solution" format
     used in the Block Storage Chapter.
@@ -39,11 +39,12 @@ Proposed change
    from the OpenStack foundation administrator survey. Reorganize content
    appropriately.
 
-3. Restructure the guides by merging content from the Cloud Administrator Guide
-   into the Administrator User Guide and the User Guide as appropriate. Remove
-   the Cloud Administrator Guide from openstack-manuals.
+3. Restructure the guides by merging content from the Administrator User
+   Guide into the Cloud Administrator Guide following. Remove the
+   Administrator User Guide from openstack-manuals.
 
-4. Rename the Administrator User Guide to Administrator Guide.
+4. Rename the Cloud Administrator guide after merging content. Change
+   the document title to Administrator Guide.
 
 5. Remove the Python SDK source files from openstack-manuals, move the
    files to the api-site, and publish to developer-openstack.org. The
