@@ -143,8 +143,9 @@ Requirements include:
 Authoring: Information and source must be maintained and reviewed by project
 developers with API working group informed and doc team providing support.
 
-Authoring: API reference information should be auto-generated with strings
-stored in the code. Review the :ref:`overview-of-standards` below.
+Authoring: API reference information could be auto-generated with strings
+stored in the code or reviewed and written collaboratively. For more info,
+review the :ref:`overview-of-standards` below.
 
 Authoring: API reference information review should use the APIImpact and
 DocImpact flags.
