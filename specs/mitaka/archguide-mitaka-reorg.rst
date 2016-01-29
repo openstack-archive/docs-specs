@@ -78,7 +78,7 @@ Dependencies
 ============
 
 This work is dependent on the guide being converted from DocBook to RST. See
-:ref:`archguide_mitaka_rst`.
+:ref:`archguide-mitaka-rst`.
 
 Testing
 =======
