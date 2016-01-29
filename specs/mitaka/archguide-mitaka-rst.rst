@@ -4,7 +4,7 @@
 
  http://creativecommons.org/licenses/by/3.0/legalcode
 
-.. _archguide_mitaka_rst:
+.. _archguide-mitaka-rst:
 
 ==========================================
 Architecture Design Guide: RST conversion
