@@ -1,0 +1,11 @@
+Code-Review+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: IanSun <sun.jun@99cloud.net>
+Code-Review+1: venkatamahesh <venkatamaheshkotha@gmail.com>
+Workflow+1: Anne Gentle <annegentle@justwriteclick.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 05 Feb 2016 19:59:53 +0000
+Reviewed-on: https://review.openstack.org/274251
+Project: openstack/docs-specs
+Branch: refs/heads/master
