@@ -1,0 +1,10 @@
+Code-Review+2: Christian Berendt <christian@berendt.io>
+Code-Review+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Workflow+1: Lana Brindley <openstack@lanabrindley.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 23 Feb 2016 06:29:24 +0000
+Reviewed-on: https://review.openstack.org/274231
+Project: openstack/docs-specs
+Branch: refs/heads/master
