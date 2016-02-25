@@ -1,0 +1,9 @@
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+2: Matthew Kassawara <mkassawara@gmail.com>
+Workflow+1: Matthew Kassawara <mkassawara@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 25 Feb 2016 13:35:06 +0000
+Reviewed-on: https://review.openstack.org/275200
+Project: openstack/docs-specs
+Branch: refs/heads/master
