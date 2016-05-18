@@ -1,0 +1,10 @@
+Code-Review+1: Olga Gusarenko <ogusarenko@mirantis.com>
+Code-Review+2: Joseph Robinson <joseph.robinson@rackspace.com>
+Code-Review+1: Robert Starmer <robert@kumul.us>
+Workflow+1: Joseph Robinson <joseph.robinson@rackspace.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 18 May 2016 00:49:36 +0000
+Reviewed-on: https://review.openstack.org/316445
+Project: openstack/docs-specs
+Branch: refs/heads/master
