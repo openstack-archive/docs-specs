@@ -84,6 +84,8 @@ Change links in stable/mitaka and stable/liberty branches that go to changed
 file names due to changes in non-versioned deliverables by backporting link
 changes.
 
+Update the sitemap.xml file to ensure all new file names are in the sitemap.
+
 Dependencies
 ============
 
