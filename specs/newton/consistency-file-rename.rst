@@ -35,7 +35,7 @@ Do not change image or figure file names.
 Change any hyperlinks that refer to underscore-named files.
 
 Redirect any old file names to new file names on the web server itself in the
-``static/www/.htaccess`` file.
+``www/static/.htaccess`` file.
 
 Alternatives
 ------------
@@ -49,36 +49,36 @@ Implementation
 Assignee(s)
 -----------
 
-admin-guide: Anne Gentle
-cli-reference: Kato Tomoyuki
-config-reference: Kato Tomoyuki
-common: Akihiro Motoki
-user-guide: Mariia Zlatkova
-ops-guide: Olena Logvinova
+* admin-guide: Anne Gentle
+* cli-reference: Kato Tomoyuki
+* config-reference: Kato Tomoyuki
+* common: Akihiro Motoki
+* user-guide: Mariia Zlatkova
+* ops-guide: Olena Logvinova
 
-backporting link fixes: Akihiro Motoki
+* backporting link fixes: Akihiro Motoki
 
 Work Items
 ----------
 
 Change file names and links in:
 
-admin-guide
-cli-reference (glance_property_keys.rst is the only file)
-common
-config-reference
-ops-guide
-user-guide
+* admin-guide
+* cli-reference (glance_property_keys.rst is the only file)
+* common
+* config-reference
+* ops-guide
+* user-guide
 
 These guides have no need to change file names:
 
-arch-design
-config-reference
-contributor-guide
-ha-guide
-image-guide
-install-guide
-install-guide-debconf
+* arch-design
+* config-reference
+* contributor-guide
+* ha-guide
+* image-guide
+* install-guide
+* install-guide-debconf
 
 Change links in stable/mitaka and stable/liberty branches that go to changed
 file names due to changes in non-versioned deliverables by backporting link
