@@ -1,0 +1,9 @@
+Code-Review+2: Anne Gentle <annegentle@justwriteclick.com>
+Code-Review+2: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Workflow+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 02 Aug 2016 22:40:46 +0000
+Reviewed-on: https://review.openstack.org/349553
+Project: openstack/docs-specs
+Branch: refs/heads/master
