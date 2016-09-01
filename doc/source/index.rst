@@ -4,6 +4,15 @@
 Documentation Program Specifications
 ====================================
 
+Ocata approved specs
+======================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/ocata/*
+
 Newton approved specs
 ======================
 
