@@ -4,33 +4,40 @@
 
  http://creativecommons.org/licenses/by/3.0/legalcode
 
-==============================================
-Documentation Contributor Guide reorganization
-==============================================
+========================================
+Add release chapter to Contributor Guide
+========================================
 
-https://blueprints.launchpad.net/openstack-manuals/+spec/contributor-guide-reorg
+https://blueprints.launchpad.net/openstack-manuals/+spec/release-chapter-contrib-guide
 
-To facilitate more documentation contributions,
-we should keep the contributor guide as readable as possible.
+Information about how to conduct a documentation release is currently
+contained in a wiki page, an etherpad, and several peoples' heads. In order
+to make this content more accessible, to allow more people to be involved
+in documentation releases, and to create a pipeline of people who understand
+how to do a release, this should be documented in the Contributor Guide.
 
 Problem description
 ===================
 
-The Documentation Contributor Guide contains various useful contents
-for the docs contributors. Since we have added content gradually,
-however, the guide has become scattered.
+Current information about release procedures for documentation is contained
+in a wiki page, several etherpads (see References), and other knowledge
+is shared between a small number of people who have hands-on experience
+with releases. This could potentially lead to data loss if the wiki is
+decommissioned, or if etherpad has an outage. It also can lead to problems
+if any of the subject matter experts are not available for consultation
+during the release period.
 
 Proposed change
 ===============
 
-1. Sort current contents by task group.
-2. Clarify the tasks to contribute docs.
-3. Reorganize and add the contents by tasks.
+Add a new chapter to the Contributors Guide to consolidate the information
+from the wiki, the etherpad, and the institutional knowledge.
 
 Alternatives
 ------------
 
-Keep the current guide as is.
+Do nothing: keep the information in its current locations, and hope no one
+gets hit by a bus.
 
 Implementation
 ==============
@@ -38,24 +45,20 @@ Implementation
 Assignee(s)
 -----------
 
-* Olga Gusarenko
-* KATO Tomoyuki
+* Lana Brindley (Docs PTL)
+* Andreas Jaeger (Docs Infra)
+* Anne Gentle (Past Docs PTL)
+* Past and present release managers
 
 Work Items
 ----------
 
-* Sort current contents by task group.
-* Clarify the tasks to contribute docs.
-* Reorganize and add the contents by tasks.
-* Refine the contents for first timers.
-* Refine the contents for docs readers, such as bug reporting.
-* Refine the contents to build docs.
-* Refine the contents to write docs.
-* Refine the contents to review docs.
-* Refine the contents to contribute API docs.
-* Refine the contents to contribute installation guides.
-* Refine the contents to contribute UI/UX docs.
-* Refine the contents about team.
+* Create new chapter in Contributor Guide (Lana)
+* Add information from the wiki to the new chapter
+* Add information from the past etherpad to the new chapter
+* Add information from the current etherpad to the new chapter
+* Have SMEs review and update content
+* Review chapter after each release
 
 Dependencies
 ============
@@ -71,4 +74,6 @@ References
 ==========
 
 * http://docs.openstack.org/contributor-guide/
-* https://etherpad.openstack.org/p/austin-docs-contributorguide
+* https://wiki.openstack.org/wiki/Documentation/Release
+* https://etherpad.openstack.org/p/MitakaRelease
+* https://etherpad.openstack.org/p/NewtonRelease
