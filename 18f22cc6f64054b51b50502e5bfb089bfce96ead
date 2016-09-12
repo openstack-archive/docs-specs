@@ -1,0 +1,11 @@
+Code-Review+1: Brian Moss <kallimachos@gmail.com>
+Code-Review+1: Alexandra Settle <alexandra.settle@rackspace.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: bruce-benjamin <bruce.benjamin@jhuapl.edu>
+Workflow+1: Joseph Robinson <joseph.robinson@rackspace.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 12 Sep 2016 02:17:30 +0000
+Reviewed-on: https://review.openstack.org/365870
+Project: openstack/docs-specs
+Branch: refs/heads/master
