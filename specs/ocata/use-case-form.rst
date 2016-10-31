@@ -11,10 +11,10 @@ Use Case Collection Form
 Problem description
 ===================
 
-The OpenStack user and operator community want to be able to provide input 
-for use cases to help provide direction for OpenStack projects and provide 
-possible usage models for the architecture guide. The current methods of 
-using either the dev-list or through blueprints can be quite daunting to 
+The OpenStack user and operator community want to be able to provide input
+for use cases to help provide direction for OpenStack projects and provide
+possible usage models for the architecture guide. The current methods of
+using either the dev-list or through blueprints can be quite daunting to
 newcomers and non-developers.
 
 We need to a simple way for operators to provide input and collect feedback.
@@ -26,7 +26,7 @@ Proposed change
 The proposal is to create a web form to collect use cases and user stories,
 the output from the form can then be categorised by keyword and presented
 in a blog post style, allowing for further questions to be asked or other
-comments. 
+comments.
 
 The form would need to include input fields to collect the following:
 
@@ -43,9 +43,9 @@ The number of input fields could be extended, but we should keep in mind that
 we want to make it simpler for people to provide input.
 
 The intention is make this a living process to support input and information
-gathering. 
+gathering.
 
-A simple voting mechanism that allows other operators to indicate that they 
+A simple voting mechanism that allows other operators to indicate that they
 have the same use case would also be useful.
 
 Alternatives
@@ -61,7 +61,7 @@ Assignee(s)
 -----------
 
 Primary assignee:
-  * 
+  *
 
 Other contributors:
   * shaunom
