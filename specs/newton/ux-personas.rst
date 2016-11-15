@@ -52,7 +52,7 @@ UX/UI guidelines (section title updated to reflect broader scope)
 * UI heuristic checklist (new, proposed in separate spec)
 * UX personas (new, proposed by this spec)
 
-In the personas section, the following personas will be ellaborated
+In the personas section, the following personas will be elaborated
 upon.
 
 Cloud Personas

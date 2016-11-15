@@ -20,7 +20,7 @@ Advantages:
 * Easier to debug
 * Better understanding of sequence of events while running the scripts
 * Adds color code to different types of messages eg. error, warning messages
-* Adds to the asthetics when running scripts
+* Adds to the aesthetics when running scripts
 
 Problem description
 ===================
