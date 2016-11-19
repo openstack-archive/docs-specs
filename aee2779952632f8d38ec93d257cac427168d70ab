@@ -1,0 +1,10 @@
+Code-Review+2: Roger Luethi <rl@patchworkscience.org>
+Code-Review+1: Nicolas Bock <nicolasbock@gmail.com>
+Code-Review+2: Pranav Salunke <dguitarbite@gmail.com>
+Workflow+1: Pranav Salunke <dguitarbite@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sat, 19 Nov 2016 16:21:44 +0000
+Reviewed-on: https://review.openstack.org/391548
+Project: openstack/docs-specs
+Branch: refs/heads/master
