@@ -41,11 +41,15 @@ Proposed change
 Add the support of building PDFs using current Sphinx build
 infrastructure using RST-sourced files in openstack-manuals repository.
 
-After Sphinx build supports PDF file generation, apply PDF buildings to
-all the HTML documents in openstack-manuals repository, add the build
-job to work with HTML builds, publish PDF files on docs.openstack.org
-per each document build, and finally insert PDF download URLs
-in the landing page of HTML documents.
+Generating PDF files using RST-sourced files includes two steps in workflow.
+First, Sphinx generates LaTeX files (.tex) from RST-sourced files.
+Second, pdflatex generates PDF files from generated LaTeX files.
+
+After the combination of Sphinx and LaTeX supports PDF file generation,
+apply PDF buildings to all the HTML documents in openstack-manuals repository
+using LaTeX PDF generation. And add the build job to work with HTML builds,
+publish PDF files on docs.openstack.org per each document build,
+and finally insert PDF download URLs in the landing page of HTML documents.
 
 Note that the main change will happen in openstack-doc-tools
 for scripts, openstackdocstheme for possible additional themes for PDFs,
@@ -70,6 +74,7 @@ Assignee(s)
 -----------
 
 * ianychoi
+* nexusz99
 * jangpro2
 * raymon-ha
 * seungkyua
@@ -78,7 +83,7 @@ Assignee(s)
 Work Items
 ----------
 
-* Identifying requirements of libraries including rst2pdf
+* Identifying requirements of libraries
 * Checking the compatibility of the libraries
 * Changes in Sphinx configuration
 * A basic PDF theme (fancy theme design is not the main goal)
@@ -119,8 +124,7 @@ Project Scope
 Dependencies
 ============
 
-* Can be dependent on pdf build program (e.g., rst2pdf) version
-  which is compatible with current Sphinx version for HTML builds
+* Can be dependent on pdf build program (e.g., LaTeX)
 
 Testing
 =======
@@ -135,4 +139,4 @@ References
 
 * http://lists.openstack.org/pipermail/openstack-docs/2016-July/008867.html
 * http://lists.openstack.org/pipermail/openstack-docs/2016-July/008869.html
-* rst2pdf: https://pypi.python.org/pypi/rst2pdf
+* https://review.openstack.org/#/c/396943/
