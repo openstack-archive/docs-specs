@@ -4,6 +4,15 @@
 Documentation Program Specifications
 ====================================
 
+Pike approved specs
+======================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/pike/*
+
 Ocata approved specs
 ======================
 
