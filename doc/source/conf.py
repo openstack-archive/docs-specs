@@ -95,6 +95,9 @@ pygments_style = 'sphinx'
 # A list of ignored prefixes for module index sorting.
 modindex_common_prefix = ['docs-specs.']
 
+# Do not warn about non-local image URI
+suppress_warnings = ['image.nonlocal_uri']
+
 # -- Options for man page output ----------------------------------------------
 man_pages = []
 
