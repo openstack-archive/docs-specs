@@ -2,11 +2,14 @@
 # of appearance. Changing the order has an impact on the overall integration
 # process, which may cause wedges in the gate later.
 
-pbr>=1.6 # Apache-2.0
+pbr>=2.0.0 # Apache-2.0
+
 doc8 # Apache-2.0
-docutils!=0.13.1,>=0.11 # OSI-Approved Open Source, Public Domain
 oslosphinx>=4.7.0 # Apache-2.0
-sphinx!=1.3b1,<1.4,>=1.2.1 # BSD
+sphinx>=1.5.1 # BSD
 testrepository>=0.0.18 # Apache-2.0/BSD
 testtools>=1.4.0 # MIT
+
+# Note the following is not in global-requirements but this repo is
+# not using global-requirements in general.
 yasfb>=0.5.1
