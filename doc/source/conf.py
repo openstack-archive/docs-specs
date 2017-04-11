@@ -35,6 +35,9 @@ extensions = ['sphinx.ext.autodoc',
               'yasfb',
              ]
 
+# Allow badges in README
+suppress_warnings = ['image.nonlocal_uri']
+
 # Feed configuration for yasfb
 feed_base_url = 'http://specs.openstack.org/openstack/docs-specs'
 feed_author = 'OpenStack Documentation Team'
@@ -96,7 +99,7 @@ pygments_style = 'sphinx'
 modindex_common_prefix = ['docs-specs.']
 
 # -- Options for man page output ----------------------------------------------
-man_pages = []
+#man_pages = []
 
 # -- Options for HTML output ---------------------------------------------------
 
