@@ -9,5 +9,5 @@ testrepository>=0.0.18 # Apache-2.0/BSD
 testtools>=1.4.0 # MIT
 
 # Note the following is not in global-requirements but this repo is
-# not using global-requirements in general.
-yasfb>=0.5.1
+# not used in repositories in general.
+yasfb>=0.6.1
