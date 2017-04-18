@@ -160,9 +160,6 @@ Other contributors:
 
 * Maria Zlatkova, `mzlatkova <https://launchpad.net/~mzlatkova>`_
 
-.. TODO: please, let me know if you are interested in participating, and I will
-   add you to the list
-
 
 Testing
 =======
