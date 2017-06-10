@@ -2,7 +2,7 @@
  This work is licensed under a Creative Commons Attribution 3.0 Unported
  License.
 
- http://creativecommons.org/licenses/by/3.0/legalcode
+ https://creativecommons.org/licenses/by/3.0/legalcode
 
 =============================================
 Application Developer Guides - aka API Guides
@@ -129,13 +129,13 @@ How will each section be sourced?
 
 How will consumers find and read these articles? From:
 
- * http://developer.openstack.org
- * http://developer.openstack.org/firstapp-libcloud/
- * http://developer.openstack.org/api-guide/quick-start/
- * http://developer.openstack.org/api-guide/compute/
- * http://developer.openstack.org/sdks/ (needs a landing page, currently we use
+ * https://developer.openstack.org
+ * https://developer.openstack.org/firstapp-libcloud/
+ * https://developer.openstack.org/api-guide/quick-start/
+ * https://developer.openstack.org/api-guide/compute/
+ * https://developer.openstack.org/sdks/ (needs a landing page, currently we use
    developer.openstack.org/#sdks, an anchor on the landing page)
- * http://developer.openstack.org/sdks/python/openstacksdk/
+ * https://developer.openstack.org/sdks/python/openstacksdk/
 
 and so on as we fill out the outline above with content.
 
@@ -154,7 +154,7 @@ with API reference information and links to SDKs.
 
 However as the OpenStack ecosystem expands, we want to foster the best
 practices for application developers by providing the best experience through
-the http://developer.openstack.org.
+the https://developer.openstack.org.
 
 Implementation
 ==============
@@ -243,20 +243,20 @@ additional testing resources are expected at this time.
 References
 ==========
 
-* http://specs.openstack.org/openstack/docs-specs/specs/liberty/api-site.html
+* https://specs.openstack.org/openstack/docs-specs/specs/liberty/api-site.html
 
-* http://specs.openstack.org/openstack/api-wg/guidelines/api-docs.html
+* https://specs.openstack.org/openstack/api-wg/guidelines/api-docs.html
 
 * https://etherpad.openstack.org/p/nova-v2.1-api-doc
 
 * https://etherpad.openstack.org/p/Mitaka-Docs-API
 
-* http://superuser.openstack.org/articles/openstack-application-developers-share-insights
+* https://superuser.openstack.org/articles/openstack-application-developers-share-insights
 
-* http://developer.openstack.org
+* https://developer.openstack.org
 
-* http://developer.openstack.org/firstapp-libcloud/
+* https://developer.openstack.org/firstapp-libcloud/
 
-* http://developer.openstack.org/api-guide/quick-start/
+* https://developer.openstack.org/api-guide/quick-start/
 
-* http://developer.openstack.org/api-guide/compute/
+* https://developer.openstack.org/api-guide/compute/
