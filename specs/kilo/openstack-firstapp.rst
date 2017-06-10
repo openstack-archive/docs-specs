@@ -84,7 +84,7 @@ the app itself (how to create a development environment, example outputs, ..),
 not how to use OpenStack SDKs and the OpenStack API.
 
 As such, content will live in ``openstack/api-site`` repository like
-other documents published to http://developer.openstack.org. Therefore
+other documents published to https://developer.openstack.org. Therefore
 the review team will be the standard docs reviewers for this
 repository.
 

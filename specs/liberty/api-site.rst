@@ -2,7 +2,7 @@
  This work is licensed under a Creative Commons Attribution 3.0 Unported
  License.
 
- http://creativecommons.org/licenses/by/3.0/legalcode
+ https://creativecommons.org/licenses/by/3.0/legalcode
 
 ================================
 Rework API Reference Information
@@ -40,7 +40,7 @@ against the results you see on screen when you make a call.
 
 There are currently 915 GET/PUT/POST/DELETE/PATCH calls documented on the
 OpenStack API Complete Reference site at
-http://developer.openstack.org/api-ref.html.
+https://developer.openstack.org/api-ref.html.
 
 Currently, the API reference is in a separate repo, api-site. In the kilo
 release (Nov14-Apr15) we moved all "narrative" information to the repo of the
@@ -190,8 +190,8 @@ limits, versioning, and so on into each project's managed repository should be
 reused for these Developer Guides.
 
 For an interim step, we can start publishing the RST-sourced information to
-http://developer.openstack.org/api-guide/compute
-from the http://git.openstack.org/cgit/openstack/nova/tree/doc/source/v2
+https://developer.openstack.org/api-guide/compute
+from the https://git.openstack.org/cgit/openstack/nova/tree/doc/source/v2
 information. Publishing as separate items does mean needing to add a separate
 index.rst and conf.py build for each of the services that has these types of
 conceptual documents.
@@ -200,14 +200,14 @@ Also, add a new column to the developer.openstack.org landing page that links
 to conceptual information for each service in a column next to API Reference.
 
 These are the current links to API conceptual information:
-http://docs.openstack.org/developer/nova/v2/index.html
-http://docs.openstack.org/developer/swift/#object-storage-v1-rest-api-documentation
-http://specs.openstack.org/openstack/glance-specs/#image-service-v2-api
-http://specs.openstack.org/openstack/glance-specs/#image-service-v1-api
-http://specs.openstack.org/openstack/keystone-specs/#v3-api
-http://specs.openstack.org/openstack/keystone-specs/#v2-0-api
-http://specs.openstack.org/openstack/neutron-specs/#api-specs
-http://specs.openstack.org/openstack/cinder-specs/#volume-v2-api
+https://docs.openstack.org/developer/nova/v2/index.html
+https://docs.openstack.org/developer/swift/#object-storage-v1-rest-api-documentation
+https://specs.openstack.org/openstack/glance-specs/#image-service-v2-api
+https://specs.openstack.org/openstack/glance-specs/#image-service-v1-api
+https://specs.openstack.org/openstack/keystone-specs/#v3-api
+https://specs.openstack.org/openstack/keystone-specs/#v2-0-api
+https://specs.openstack.org/openstack/neutron-specs/#api-specs
+https://specs.openstack.org/openstack/cinder-specs/#volume-v2-api
 
 By building and linking more prominently we hope to add to the collection of
 helpful information for application and SDK developers.
@@ -232,7 +232,7 @@ Swagger
 RAML
    Community-maintained standard, proprietary tooling unless you just edit
    in text, but then how do you validate? RAML specification found here:
-   http://raml.org/spec.html. Allows for inclusion of content similar to our
+   https://raml.org/spec.html. Allows for inclusion of content similar to our
    current WADL entities for reuse of content. Based on YAML, supported
    and provided by MuleSoft.
 
@@ -249,7 +249,7 @@ API Blueprint
 WADL
    Currently all the reference information is housed and maintained in
    openstack/api-site in WADL files. We have a `WADL2Swagger tool <https://github.com/rackerlabs/wadl2swagger>`_
-   which has been run on our current WADL files. The `resulting Swagger files <http://rackerlabs.github.io/wadl2swagger/openstack.html>`_ can be used for
+   which has been run on our current WADL files. The `resulting Swagger files <https://rackerlabs.github.io/wadl2swagger/openstack.html>`_ can be used for
    comparison and testing purposes.
 
 With the Python routes approach, we could first write to the Swagger 2.0 spec
@@ -341,16 +341,16 @@ respective doc/source directories.
 Web design and development of templates for new developer guide.
 
 Information architecture for where the deliverables should be published on
-http://developer.openstack.org/.
+https://developer.openstack.org/.
 
 Fix WADL where inconsistencies are discovered.
 
 Write a JSON Schema for modified Swagger (Swaggerish) to support multiple
 request/response types at the same URL, such as Orchestration actions resource:
-http://developer.openstack.org/api-ref-orchestration-v1.html#stack_action_suspend
-http://developer.openstack.org/api-ref-orchestration-v1.html#stack_action_resume
+https://developer.openstack.org/api-ref-orchestration-v1.html#stack_action_suspend
+https://developer.openstack.org/api-ref-orchestration-v1.html#stack_action_resume
 Or the Compute server actions resource:
-http://developer.openstack.org/api-ref-compute-v2.html#compute_server-actions
+https://developer.openstack.org/api-ref-compute-v2.html#compute_server-actions
 
 Define documentation that is included in a Swagger Tag. For example, there
 exists a lot of narrative or conceptual information in the WADL and DocBook
@@ -374,9 +374,9 @@ Prepare the developer.openstack.org website for the transition including
 DevStack installation, CORS support, and an overall information architecture
 for developer guides.
 Create a front-end design for presenting the information. Two POCs:
-Default Swagger UI http://fairy-slipper.russellsim.org/swagger-ui/
+Default Swagger UI https://fairy-slipper.russellsim.org/swagger-ui/
 Stripe-like Swagger UI (from jensoleg):
-http://fairy-slipper.russellsim.org/swagger-ui-jensoleg/
+https://fairy-slipper.russellsim.org/swagger-ui-jensoleg/
 
 Dependencies
 ============
@@ -417,20 +417,20 @@ Previous unimplemented blueprints related to this spec:
 Additional information:
 
 * API Archaeology: Complexity and sizing of an interface
-  http://justwriteclick.com/2015/01/12/api-archaeology-complexity-and-sizing-of-an-interface/
+  https://justwriteclick.com/2015/01/12/api-archaeology-complexity-and-sizing-of-an-interface/
   This blog post gives counts as of the January post date. As of April 27,
   2015 the counts are now 915 calls.
 
 * List of services with REST APIS:
-  http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml
+  https://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml
 
 * Issues with WADL2Swagger: The underlying issue is that Swagger
   definitions itself should require JSON schema to be useful and contractual.
   https://github.com/rackerlabs/wadl2swagger/issues/8
 
-* November 2014 User Survey Data http://superuser.openstack.org/articles/openstack-user-survey-insights-november-2014
+* November 2014 User Survey Data https://superuser.openstack.org/articles/openstack-user-survey-insights-november-2014
 
-* April 2015 User Survey Data (app devs) http://superuser.openstack.org/articles/openstack-application-developers-share-insights
+* April 2015 User Survey Data (app devs) https://superuser.openstack.org/articles/openstack-application-developers-share-insights
 
 * API Docs Working Session Etherpad https://etherpad.openstack.org/p/Documentation__API_Work_Session
 

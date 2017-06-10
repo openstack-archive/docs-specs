@@ -2,7 +2,7 @@
  This work is licensed under a Creative Commons Attribution 3.0 Unported
  License.
 
- http://creativecommons.org/licenses/by/3.0/legalcode
+ https://creativecommons.org/licenses/by/3.0/legalcode
 
 ====================================
 Add trove to the installation guide
@@ -19,11 +19,11 @@ The installation guide does not include trove, but trove packages are
 available in the distros' repositories. Essential documents also
 already support trove:
 
-- `trove admin guide cloud <http://docs.openstack.org/admin-guide-cloud/database.html>`__
-- `trove user guide cmd line <http://docs.openstack.org/user-guide/trove-manage-db.html>`__
-- `trove user guide dashboard <http://docs.openstack.org/user-guide/dashboard_databases.html>`__
-- `trove configuration reference <http://docs.openstack.org/liberty/config-reference/content/ch_configuring-trove.html>`__
-- `trove API reference <http://developer.openstack.org/api-ref-database-v1.html>`__
+- `trove admin guide cloud <https://docs.openstack.org/admin-guide-cloud/database.html>`__
+- `trove user guide cmd line <https://docs.openstack.org/user-guide/trove-manage-db.html>`__
+- `trove user guide dashboard <https://docs.openstack.org/user-guide/dashboard_databases.html>`__
+- `trove configuration reference <https://docs.openstack.org/liberty/config-reference/content/ch_configuring-trove.html>`__
+- `trove API reference <https://developer.openstack.org/api-ref-database-v1.html>`__
 
 Proposed change
 ===============
