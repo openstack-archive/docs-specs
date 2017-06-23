@@ -1,0 +1,42 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Alexandra Settle <a.settle@outlook.com>
+Code-Review+1: Steve Martinelli <s.martinelli@gmail.com>
+Code-Review+1: Jeremy Stanley <fungi@yuggoth.org>
+Code-Review+1: Brian Moss <kallimachos@gmail.com>
+Code-Review+2: Anne Gentle <annegentle@justwriteclick.com>
+Code-Review+1: YAMAMOTO Takashi <yamamoto@midokura.com>
+Code-Review+1: Nicolas Bock <nicolasbock@gmail.com>
+Code-Review+1: Olena Logvinova <ologvinova@mirantis.com>
+Code-Review+1: Akihiro Motoki <amotoki@gmail.com>
+Code-Review+1: Kevin Benton <kevin@benton.pub>
+Code-Review+1: Michael Johnson <johnsomor@gmail.com>
+Code-Review+1: Thierry Carrez <thierry@openstack.org>
+Code-Review+1: Nguyen Van Trung <trungnv@vn.fujitsu.com>
+Code-Review+1: Stephen Finucane <sfinucan@redhat.com>
+Code-Review+1: Doug Hellmann <doug@doughellmann.com>
+Code-Review+1: Sean McGinnis <sean.mcginnis@gmail.com>
+Code-Review+1: Emilien Macchi <emilien@redhat.com>
+Code-Review+1: Dmitry Tantsur <divius.inside@gmail.com>
+Code-Review+1: Andy McCrae <andy.mccrae@googlemail.com>
+Code-Review+1: Lance Bragstad <lbragstad@gmail.com>
+Code-Review+1: Dean Troyer <dtroyer@gmail.com>
+Code-Review+1: Brian Rosmaita <rosmaita.fossdev@gmail.com>
+Code-Review+1: Saad Zaher <eng.szaher@gmail.com>
+Code-Review+1: Roland Hochmuth <roland.hochmuth@hpe.com>
+Code-Review+1: Telles Mota Vidal Nóbrega <tenobreg@redhat.com>
+Code-Review+1: Michal Jastrzebski (inc0) <michal.jastrzebski@intel.com>
+Code-Review+1: Hongbin Lu <hongbin.lu@huawei.com>
+Code-Review+1: Feilong Wang <flwang@catalyst.net.nz>
+Code-Review+1: Hirofumi Ichihara <ichihara.hirofumi@lab.ntt.co.jp>
+Code-Review+1: Qiming Teng <tengqim@cn.ibm.com>
+Code-Review+1: ChangBo Guo(gcb) <glongwave@gmail.com>
+Code-Review+1: Hanxi Liu <hanxi.liu@easystack.cn>
+Code-Review+1: Tony Breeds <tony@bakeyournoodle.com>
+Code-Review+1: Jan Klare <j.klare@cloudbau.de>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 23 Jun 2017 10:34:14 +0000
+Reviewed-on: https://review.openstack.org/472275
+Project: openstack/docs-specs
+Branch: refs/heads/master
