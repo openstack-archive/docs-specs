@@ -278,6 +278,13 @@ repositories, instead of having the documentation team "push" it.
      one to import the user guide, etc.). Submit these as patches on
      top of any previous patches.
 
+#. Ensure that there is an index.rst in each subdirectory of
+   doc/source so that the various landing pages managed by the
+   documentation team can link directly to that portion of the
+   documentation for your project. For example, in addition to moving
+   installation documentation into ``install/`` create
+   ``install/index.rst`` with a ``toctree`` directive that shows all of
+   the installation.
 #. Ensure that there is a top-level index.rst in doc/source that
    incorporates all of the documentation for the project by including
    all of the subdirectories in a toctree.
