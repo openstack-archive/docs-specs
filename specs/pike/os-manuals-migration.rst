@@ -283,7 +283,8 @@ repositories, instead of having the documentation team "push" it.
    all of the subdirectories in a toctree.
 #. Update the theme for the in-tree docs to use the openstackdocstheme
    instead of oslosphinx.
-#. Add auto-generated config reference section(s).
+#. Add auto-generated config reference section(s) under the
+   ``configuration/`` directory.
 #. If pbr's autodoc feature is being used, update the ``api_doc_dir``
    setting in the ``pbr`` section of ``setup.cfg`` to point to either
    ``reference/api`` (for libraries) or ``contributor/api`` (for other
@@ -299,19 +300,6 @@ repositories, instead of having the documentation team "push" it.
 #. Add links to the reviews for individual TODO items below those
    items in the sections dedicated to each manual. That way the docs
    team will know when it is safe to start deleting content.
-#. If the project has a service-type, add a 302 redirect rule from
-   ``/$service-type`` to ``/$project-name`` by editing
-   ``openstack-manuals/www/static/.htaccess``. For example,
-   ``/compute`` should redirect to ``/nova``.
-#. After project-specific install guides are moved into the doc tree,
-   set up a 302 redirect rule from /project-install-guide to the
-   new /install location by editing
-   ``openstack-manuals/www/static/.htaccess``.
-#. Update the main landing page(s) starting with docs.o.o/ (see notes above)
-#. Remove the original copy of the content from the openstack-manuals repo
-
-   * This patch can be filed early with depends-on for the other related
-     patches.
 
 Alternatives
 ------------
