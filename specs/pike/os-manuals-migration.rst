@@ -368,6 +368,8 @@ There is more detail in the tracking pad mentioned in step 3.
    which pages go into which project trees.
 #. Define new translation jobs based on the ones for the release notes build
    but using the main doc build.
+#. Create a separate glossary. `:term:` needs to be removed when importing and
+   performing the migration.
 
 Dependencies
 ~~~~~~~~~~~~
