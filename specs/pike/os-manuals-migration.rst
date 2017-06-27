@@ -308,6 +308,10 @@ repositories, instead of having the documentation team "push" it.
    items in the sections dedicated to each manual. That way the docs
    team will know when it is safe to start deleting content.
 
+#. `:term:` needs to be removed when importing and
+   performing the migration. This is due to the glossary remaining in the
+   openstack-manuals repo.
+
 Alternatives
 ------------
 
@@ -368,6 +372,7 @@ There is more detail in the tracking pad mentioned in step 3.
    which pages go into which project trees.
 #. Define new translation jobs based on the ones for the release notes build
    but using the main doc build.
+#. Create a separate build for the openstack-manuals glossary.
 
 Dependencies
 ~~~~~~~~~~~~
