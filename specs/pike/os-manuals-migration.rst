@@ -277,6 +277,10 @@ repositories, instead of having the documentation team "push" it.
    * Prepare one patch per manual (so one to import the install guide,
      one to import the user guide, etc.). Submit these as patches on
      top of any previous patches.
+   * `:term:` needs to be removed when importing and
+     performing the migration. This is due to the glossary remaining in the
+     openstack-manuals repo. Teams can choose to link to the glossary
+     on their own project pages if they so desire.
 
 #. Ensure that there is an index.rst in each subdirectory of
    doc/source so that the various landing pages managed by the
@@ -368,6 +372,7 @@ There is more detail in the tracking pad mentioned in step 3.
    which pages go into which project trees.
 #. Define new translation jobs based on the ones for the release notes build
    but using the main doc build.
+#. Create a separate build for the openstack-manuals glossary.
 
 Dependencies
 ~~~~~~~~~~~~
