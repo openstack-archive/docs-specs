@@ -1,0 +1,10 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: bruce-benjamin <bruce.benjamin@jhuapl.edu>
+Code-Review+2: Chason Chan <chason.chan@foxmail.com>
+Workflow+1: Chason Chan <chason.chan@foxmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 28 Jun 2017 05:14:59 +0000
+Reviewed-on: https://review.openstack.org/478145
+Project: openstack/docs-specs
+Branch: refs/heads/master
