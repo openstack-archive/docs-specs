@@ -59,7 +59,7 @@ PDF build support in Sphinx configurations.
 Alternatives
 ------------
 
-* Building PDFs seperately (without using current Sphinx build scripts)
+* Building PDFs separately (without using current Sphinx build scripts)
   can be an alternative. However, this result will decrease the manageability
   of build scripts in documentation repositories.
 

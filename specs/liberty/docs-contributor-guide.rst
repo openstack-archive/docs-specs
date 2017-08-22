@@ -127,7 +127,7 @@ Implementation
 Work Items
 ----------
 
-#. Create a seperate wiki page to keep all the related details on the
+#. Create a separate wiki page to keep all the related details on the
    project.
 
 #. Work out the detailed and well-structured table of contents (on wiki).

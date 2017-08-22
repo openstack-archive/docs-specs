@@ -26,7 +26,7 @@ to expect the documentation team to maintain the administrator guide for all
 of these projects. We need to optimize the usage of the documentation teams
 resources.
 
-Currently the administrator guide is in a seperate git repository from the
+Currently the administrator guide is in a separate git repository from the
 code and patches being proposed.  This leads to an "out of site, out of mind"
 scenario where updates to the administrator guide are an afterthought if they
 get updated at all.
