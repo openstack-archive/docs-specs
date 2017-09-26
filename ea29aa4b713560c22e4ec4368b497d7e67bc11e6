@@ -1,0 +1,11 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Lucas Xu <hangxu.login@gmail.com>
+Code-Review+1: Stephen Finucane <stephenfin@redhat.com>
+Code-Review+2: Petr Kovar <pkovar@redhat.com>
+Workflow+1: Petr Kovar <pkovar@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 26 Sep 2017 21:25:52 +0000
+Reviewed-on: https://review.openstack.org/496119
+Project: openstack/docs-specs
+Branch: refs/heads/master
