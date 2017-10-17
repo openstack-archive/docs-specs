@@ -1,0 +1,11 @@
+Code-Review+2: Anne Gentle <annegentle@justwriteclick.com>
+Verified+1: Jenkins
+Code-Review+2: Chason Chan <chason.chan@foxmail.com>
+Code-Review+2: Petr Kovar <pkovar@redhat.com>
+Workflow+1: Petr Kovar <pkovar@redhat.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Tue, 17 Oct 2017 17:15:13 +0000
+Reviewed-on: https://review.openstack.org/507629
+Project: openstack/docs-specs
+Branch: refs/heads/master
