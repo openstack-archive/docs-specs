@@ -142,8 +142,8 @@ burden or expectations of users.
   especially when it is no longer maintained. These markers need to be
   built outside of the documentation itself so they can be updated
   independently, without patching the docs or adding steps to the
-  stable branch EOL process. The plan discussed at the PTG was based
-  on SVG files built from the openstack-manuals repository and
+  stable branch EOL process. The plan discussed at the Queens PTG was
+  based on SVG files built from the openstack-manuals repository and
   included into published pages by the ``openstackdocstheme``. More
   details need to be worked out, and that work will involve its own
   spec to follow this one.
@@ -236,7 +236,7 @@ Other contributors:
 Work Items
 ----------
 
-* Restore the stable/mitaka version of the admin, cli, and user guides
+* Restore the stable/mitaka version of the admin, CLI, and user guides
   are published using series-specific URLs. (dhellmann)
 
   * Create a new ``stable/mitaka`` branch.
@@ -246,14 +246,14 @@ Work Items
   * Re-close the branch.
 
 * Update the stable/ocata branch of openstack/openstack-manuals to
-  build the admin, cli, and user guides using series-specific
+  build the admin, CLI, and user guides using series-specific
   URLs. (*owner needed*)
 
   * Update the build scripts so the manuals are published to
     series-specific URLs.
   * Add appropriate redirects.
   * Update the stable/newton branch of openstack/openstack-manuals to
-    link to the Ocata versions of the admin, cli, and user guides.
+    link to the Ocata versions of the admin, CLI, and user guides.
 
 * Write a spec for the version "badges" and implement the appropriate
   changes. (*owner needed*)
