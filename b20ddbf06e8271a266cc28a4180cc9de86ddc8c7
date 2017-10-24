@@ -1,0 +1,9 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Chason Chan <chason.chan@foxmail.com>
+Workflow+1: Chason Chan <chason.chan@foxmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Tue, 24 Oct 2017 03:02:07 +0000
+Reviewed-on: https://review.openstack.org/514393
+Project: openstack/docs-specs
+Branch: refs/heads/master
