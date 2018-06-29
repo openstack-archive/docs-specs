@@ -4,6 +4,15 @@
 Documentation Program Specifications
 ====================================
 
+Rocky approved specs
+====================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/rocky/*
+
 Queens approved specs
 =====================
 
