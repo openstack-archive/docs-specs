@@ -45,7 +45,7 @@ current status of blueprints. For more information, see
 https://wiki.openstack.org/wiki/Blueprints.
 
 For more information about working with gerrit, see
-http://docs.openstack.org/infra/manual/developers.html#development-workflow.
+https://docs.openstack.org/infra/manual/developers.html#development-workflow.
 
 To validate that the specification is syntactically correct (i.e. get more
 confidence in the Jenkins result), please execute the following command::
@@ -56,7 +56,7 @@ After running ``tox``, the documentation will be available for viewing in HTML
 format in the ``doc/build/`` directory. Please do not check in the generated
 HTML files as a part of your commit.
 
-The files are published at http://specs.openstack.org/openstack/docs-specs.
+The files are published at https://specs.openstack.org/openstack/docs-specs.
 
 The git repository is located at
-http://git.openstack.org/cgit/openstack/docs-specs/.
+https://git.openstack.org/cgit/openstack/docs-specs/.
