@@ -1,0 +1,12 @@
+Code-Review+1: Chason Chan <chason.chan@foxmail.com>
+Code-Review+1: caoyuan <cao.yuan@99cloud.net>
+Code-Review+2: Stephen Finucane <stephenfin@redhat.com>
+Code-Review+1: Sean McGinnis <sean.mcginnis@gmail.com>
+Code-Review+2: Frank Kloeker <f.kloeker@telekom.de>
+Workflow+1: Frank Kloeker <f.kloeker@telekom.de>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 03 Aug 2018 08:50:39 +0000
+Reviewed-on: https://review.openstack.org/579177
+Project: openstack/docs-specs
+Branch: refs/heads/master
