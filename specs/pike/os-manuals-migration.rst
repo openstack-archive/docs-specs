@@ -243,6 +243,7 @@ What is happening to each guide?
     python-glanceclient repository.
 
 * Virtual Machine Image Reference
+
   * This content will stay in openstack-manuals.
 
 Migration process
