@@ -1,0 +1,9 @@
+Code-Review+2: caoyuan <cao.yuan@99cloud.net>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 24 Aug 2018 06:45:45 +0000
+Reviewed-on: https://review.openstack.org/596020
+Project: openstack/docs-specs
+Branch: refs/heads/master
