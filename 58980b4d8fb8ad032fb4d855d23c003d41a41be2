@@ -1,0 +1,9 @@
+Code-Review+2: Stephen Finucane <stephenfin@redhat.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 06 Dec 2018 13:41:18 +0000
+Reviewed-on: https://review.openstack.org/622985
+Project: openstack/docs-specs
+Branch: refs/heads/master
