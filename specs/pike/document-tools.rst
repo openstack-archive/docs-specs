@@ -15,9 +15,9 @@ Problem description
 ===================
 
 Documentation for `openstack-doc-tools
-<http://git.openstack.org/cgit/openstack/openstack-doc-tools/>`_ and
+<http://opendev.org/openstack/openstack-doc-tools/>`_ and
 `openstackdocstheme
-<http://git.openstack.org/cgit/openstack/openstackdocstheme/>`_ is currently
+<http://opendev.org/openstack/openstackdocstheme/>`_ is currently
 divided between various README files in the project repositories and the
 `OpenStack Documentation Contributor Guide
 <https://docs.openstack.org/contributor-guide/index.html>`_. In some cases
@@ -94,7 +94,7 @@ Testing will follow the standard documentation review process.
 References
 ==========
 
--  `openstack-doc-tools <http://git.openstack.org/cgit/openstack/openstack-doc-tools/>`_
--  `openstackdocstheme <http://git.openstack.org/cgit/openstack/openstackdocstheme/>`_
--  `openstack-manuals <http://git.openstack.org/cgit/openstack/openstack-manuals>`_
+-  `openstack-doc-tools <http://opendev.org/openstack/openstack-doc-tools/>`_
+-  `openstackdocstheme <http://opendev.org/openstack/openstackdocstheme/>`_
+-  `openstack-manuals <http://opendev.org/openstack/openstack-manuals>`_
 -  `OpenStack Documentation Contributor Guide <https://docs.openstack.org/contributor-guide/index.html>`_

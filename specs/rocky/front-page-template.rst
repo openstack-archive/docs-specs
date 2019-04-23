@@ -235,7 +235,7 @@ References
 * `OpenStack Compute service`_
 
 .. _Project guide setup: https://docs.openstack.org/doc-contrib-guide/project-guides.html
-.. _Cookiecutter Template for new OpenStack projects: https://git.openstack.org/cgit/openstack-dev/cookiecutter/
+.. _Cookiecutter Template for new OpenStack projects: https://opendev.org/openstack-dev/cookiecutter/
 .. _OpenStack Documentation Contributor Guide: https://docs.openstack.org/doc-contrib-guide/
 .. _Queens PTG docs project meeting: https://etherpad.openstack.org/p/docs-i18n-ptg-rocky
 .. _OpenStack Compute service: https://docs.openstack.org/nova/latest/

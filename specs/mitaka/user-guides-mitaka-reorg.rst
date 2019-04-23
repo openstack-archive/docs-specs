@@ -50,7 +50,7 @@ Proposed change
    files to the api-site, and publish to developer.openstack.org. The
    current published files are at http://docs.openstack.org/user-guide/sdk/html
    and the source is at
-   http://git.openstack.org/cgit/openstack/openstack-manuals/tree/doc/user-guide/source/sdk*.rst
+   http://opendev.org/openstack/openstack-manuals/tree/doc/user-guide/source/sdk*.rst
 
 Alternatives
 ------------

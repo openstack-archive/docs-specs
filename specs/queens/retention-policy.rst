@@ -290,7 +290,7 @@ References
   <https://etherpad.openstack.org/p/docs-i18n-ptg-queens>`__
 
 * `Old "Archiving" spec
-  <http://git.openstack.org/cgit/openstack/docs-specs/commit/?id=4ce480f4e29d8514a8b01acbe8157d84ed731d04>`__
+  <http://opendev.org/openstack/docs-specs/commit/?id=4ce480f4e29d8514a8b01acbe8157d84ed731d04>`__
 
 * `Old "Archiving" blueprint
   <https://blueprints.launchpad.net/openstack-manuals/+spec/archiving>`__

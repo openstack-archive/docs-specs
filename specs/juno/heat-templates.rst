@@ -115,11 +115,11 @@ This should ease the testing.
 
 These templates could be provided as part of the `heat-templates repository`_.
 
-.. _`heat-templates repository`: https://git.openstack.org/cgit/openstack/heat-templates
+.. _`heat-templates repository`: https://opendev.org/openstack/heat-templates
 
 References
 ==========
 
-* https://git.openstack.org/cgit/openstack/heat/tree/doc/source/template_guide
-* https://git.openstack.org/cgit/openstack/heat-templates
+* https://opendev.org/openstack/heat/tree/doc/source/template_guide
+* https://opendev.org/openstack/heat-templates
 * http://docs.openstack.org/developer/heat/template_guide/openstack.html

@@ -191,7 +191,7 @@ reused for these Developer Guides.
 
 For an interim step, we can start publishing the RST-sourced information to
 http://developer.openstack.org/api-guide/compute
-from the http://git.openstack.org/cgit/openstack/nova/tree/doc/source/v2
+from the http://opendev.org/openstack/nova/tree/doc/source/v2
 information. Publishing as separate items does mean needing to add a separate
 index.rst and conf.py build for each of the services that has these types of
 conceptual documents.
@@ -422,7 +422,7 @@ Additional information:
   2015 the counts are now 915 calls.
 
 * List of services with REST APIS:
-  http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml
+  http://opendev.org/openstack/governance/tree/reference/projects.yaml
 
 * Issues with WADL2Swagger: The underlying issue is that Swagger
   definitions itself should require JSON schema to be useful and contractual.

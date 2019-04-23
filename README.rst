@@ -59,4 +59,4 @@ HTML files as a part of your commit.
 The files are published at https://specs.openstack.org/openstack/docs-specs.
 
 The git repository is located at
-https://git.openstack.org/cgit/openstack/docs-specs/.
+https://opendev.org/openstack/docs-specs/.

@@ -226,7 +226,7 @@ Work Items
   guides (jaegerandi).
 
 * Work with operator tags team to amend the `ops:docs:install-guide tag
-  <http://git.openstack.org/cgit/openstack/ops-tags-team/tree/descriptions/ops-docs-install-guide.rst>`_
+  <http://opendev.org/openstack/ops-tags-team/tree/descriptions/ops-docs-install-guide.rst>`_
   (thingee)
 
 * Create a "cookie cutter" template for use by projects when creating
