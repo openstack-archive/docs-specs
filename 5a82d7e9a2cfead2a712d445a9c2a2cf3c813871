@@ -1,0 +1,9 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Workflow+1: Doug Hellmann <doug@doughellmann.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Tue, 09 Jul 2019 13:41:28 +0000
+Reviewed-on: https://review.opendev.org/657138
+Project: openstack/docs-specs
+Branch: refs/heads/master
